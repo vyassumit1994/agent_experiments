@@ -1,0 +1,13 @@
+
+# Make a seperate directory
+mkdir reflection_agent
+cd reflection_agent
+
+# Setup venv
+poetry init
+
+# Add packages
+poetry add langchain langchain_openai langgraph grandalf dotenv
+
+# How to run
+python main.py
